@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alex Park</title>
+		<link rel="stylesheet" href="Assets/mystyle.css">
+	</head>
+
+	<body>
+		<header>
+			<!-- <img src="Assets/Alex01.jpg" alt="Alex Profile Image" class="profile-img"> -->
+           		<nav>
+           			<ul>
+           		        	<li><a href="#hero" class="general">Home</a></li>
+					<li><a href="#About" class="general">About</a></li>
+               				<li>
+						<div class="dropdown">
+						<a href="#DreamsforSchools" class="ProjectDropdown">Projects</a>
+						<div class="dropdown-content">
+							<a href="#Projects">Dreams for Schools</a>
+							<a href="https://parkingmeters.itch.io/treasure-hunt" target=_blank">Treasure Hunt</a>
+						</div>
+						</div>
+					</li>
+                    			<li><a href="#contact" class="general">Contact</a></li>
+                		</ul>
+            		</nav>
+		</header>
+		<div class="sidenav">
+			<a href="#hero"><img src="Assets/Alex01.jpg" alt="Alex Pofile Image" class="sidenav-img"> Home</a><br>
+			<a href="#About"><img src="Assets/AboutMe01.jpg" alt="Alex pointing to the Right" class="sidenav-img"> About</a><br>
+				<div class="dropdown">
+					<a href="#DreamsforSchools" class="ProjectDropdown"><img src="Assets/ProjectsImg01.jpg" alt="Alex holding folder" class="sidenav-img"> Projects</a>
+					<div class="dropdown-content">
+						<a href="#Projects">Dreams for Schools</a>
+						<a href="#TreasureHunt">Treasure Hunt</a>
+					</div>
+				</div>
+                    	<a href="#contact"><img src="Assets/ContactMe01.jpg" alt="Alex shrugging" class="sidenav-img"> Contact</a><br>
+		</div>
+		<main>
+			<section id="hero">
+				<div class="section-inner">
+                    			<img src="Assets/Alex01.jpg" alt="Alex Profile Image"  class="profile-img">
+                    			<h1>Alex Park</h1>
+                		</div>
+			</section>
+			<section id="About">
+				<div class='section-inner'>
+					<h2>About Me</h2>
+					<h4>
+						<br>Hi! I'm Alex and I recently graduated from UCI with a degree in Computer Science and a specialization in Networked Systems.<br>
+						I'm currently looking for an entry-level position/Internship and would be honored for your consideration! <br>
+					</h4>
+				</div>
+			</section>
+			<section id="DreamsforSchools">
+				<div class="section-inner">
+                    			<h2>Dreams for Schools</h2>
+                    			<h3>Appjam+ Mentor</h3>
+					<h4>Santa Ana, CA<br>September 2019 - December 2019</h4>
+					<ul>
+						<li>Created curriculum under the Appjam+ program that taught students how to create their own mobile</li>
+						<li>Mentored middle school students and fueled their curiosity for mobile game development</li>
+						<li>Used the free program Thunkable to create the game and teach the students programming logic</li>
+						<li>Taught students about the development process and assigned Audio, Graphic Design, and Programming teams</li>
+					</ul>
+					<button><a href="#" onclick="return confirmation()" target="_blank">Download(.apk)</a></button>
+
+					<script>
+					function confirmation() {
+						if(confirm("This will download the .apk file. Is this okay?")) {
+						  location.href = 'Assets/Prodigy.apk';
+						} else {
+						  return false;
+						}
+					}
+					</script>
+                		</div>
+			</section>
+			<section id="TreasureHunt">
+				<div>
+					<h2>Treasure Hunt<br></h2>
+					<h4>
+						A small project I did with a group for my Video Game Project class.<br><br><br>
+						<a href="https://parkingmeters.itch.io/treasure-hunt" target="_blank" class="Game">Play the Game!</a>
+					</h4>
+					
+				</div>
+			</section>
+			<section id="contact">
+				<div class="section-inner">
+        	            		<h2>Contact me</h2>
+					<h3> 
+						Phone: (714)-864-8029<br>
+						Email: <a href="mailto:aspark222@gmail.com" target="_blank" color="light blue">aspark222@gmail.com</a><br>
+						LinkedIn: <a href="https://www.linkedin.com/in/alex-park-154ba9122/" target="_blank" color="light blue">https://www.linkedin.com/in/alex-park-154ba9122</a>
+					</h3>
+				</div>
+			</section>
+		</main>
+		<footer id="foot">
+			
+		</footer>
+	</body>
+<html>
